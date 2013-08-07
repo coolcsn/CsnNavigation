@@ -1,0 +1,40 @@
+{
+    "name":         "coolcsn/csn-navigation",
+    "description":  "Navigation based on Zend Framework 2",
+    "type":         "library",
+    "license":      "BSD-3-Clause",
+    "homepage":     "https://github.com/coolcsn/CsnNavigation",
+    "keywords": [
+        "zf2",
+        "csn-navigation"
+    ],
+    "authors": [
+        {
+            "name":      "Stoyan Cheresharov",
+            "email":     "stoyancheresharov@gmail.com",
+            "homepage":  "http://coolcsn.com/",
+            "role":      "Developer"
+        },
+		
+		{
+            "name":      "Anton Tonev",
+            "email":     "atonevbg@gmail.com",
+            "role":      "Developer"
+        },
+		
+		{
+            "name":      "Nikolai Ivanov",
+            "email":     "nikolay.boyanov.ivanov@gmail.com",
+            "role":      "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "CsnNavigation\\": "src/"
+        }
+    }
+}

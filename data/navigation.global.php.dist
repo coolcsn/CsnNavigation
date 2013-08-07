@@ -1,0 +1,39 @@
+<?php
+
+return array(
+     'navigation' => array(
+         'default' => array(
+             array(
+                 'label' => 'Home',
+                 'route' => 'home',
+             ),
+             array(
+                 'label' => 'Page 1',
+                 'route' => 'page1', 
+				 'controller' => 'page1',
+				 'action'     => 'index',
+             ),
+			array(
+				'label' => 'Page 2',
+				'route' => 'page2',
+				'pages' => array(
+					array(
+						'label' => 'Page 2.1',
+						'route' => 'page2_1',
+						'params' => array('action' => 'index'),
+						'title' => 'This element has a special class',
+            ),
+		),
+	),
+			array(
+				'label' => 'Zend',
+				'uri'   => 'http://framework.zend.com/',
+			),
+		),
+     ),
+     'service_manager' => array(
+         'factories' => array(
+             'navigation' => 'Zend\Navigation\Service\DefaultNavigationFactory',
+         ),
+     ),
+);
