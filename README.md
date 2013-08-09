@@ -12,7 +12,7 @@ CsnNavigation has been created with educational purposes to demonstrate how Navi
 Installation
 ============
 
-Installation via composer is supported, just make sure you've set ```"minimum-stability": "dev"
+Installation via composer is supported, just make sure you've set ```"minimum-stability": "dev"```
 in your ```composer.json```file and after that run ```php composer.phar require coolcsn/csn-navigation:dev-master```
 
 Go to your application configuration in ```./config/application.config.php```and add 'CsnNavigation'.
@@ -41,5 +41,7 @@ Add this somewhere in your layout / view script(located somewhere in ```./module
 Recommends
 ==========
 CsnUser - Authentication (login, registration) module, fully compatible with CsnAuthorization.
+
 CsnAuthorization - Authorization compatible for this Registration and Logging;
+
 CsnCms - Content management system;
