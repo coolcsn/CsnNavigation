@@ -28,12 +28,12 @@ An example application configuration could look like the following:
 Navigation configuration
 =============
 
-Copy `./vendor/coolcsn/csn-navigation/data/navigation.global.php.dist` to
+Copy `./vendor/coolcsn/csn-navigation/config/navigation.global.php.dist` to
    `./config/autoload/navigation.global.php` and edit.
 
 Show navigation
 =============
-Add this somewhere in your layout / view script(located somewhere in ```./module```:
+Add this somewhere in your layout `./module/Application/view/layout/layout.phtml` :
 ```
 <?php echo $this->navigation('navigation')->menu(); ?>
 ```
